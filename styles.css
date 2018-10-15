@@ -1,0 +1,53 @@
+/*******************
+ * Problem Set 5   *
+ * CS50, Fall 2018 *
+ *******************/
+
+body {
+    background-color: #fff7d5;
+    font-family:Palatino Linotype;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: #968282;
+}
+
+h2 {
+    padding: 20px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+main {
+    font-size: 15px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #828282;
+}
+
+footer {
+    font-size: small;
+}
+
+li::before {
+    content: "– ";
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
